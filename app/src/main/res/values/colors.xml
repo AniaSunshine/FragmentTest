@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="menu_normal">#5e606d</color>
+    <color name="menu_check">#ee3416</color>
+</resources>
