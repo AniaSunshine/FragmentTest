@@ -18,6 +18,20 @@
         <activity android:name=".activity.HomeActivity"
             android:windowSoftInputMode="adjustPan">
         </activity>
+        <activity android:name=".demo.DemoActivity"
+            android:windowSoftInputMode="adjustPan">
+        </activity>
+        <activity android:name=".demo.DemoLikeMediumActivity"
+            android:windowSoftInputMode="adjustPan">
+        </activity>
+        <activity android:name=".demo.DemoRtlActivity"
+            android:windowSoftInputMode="adjustPan">
+        </activity>
+        <activity android:name=".demo.DemoMainActivity"
+            android:windowSoftInputMode="adjustPan">
+        </activity>
+
+
     </application>
 
 </manifest>

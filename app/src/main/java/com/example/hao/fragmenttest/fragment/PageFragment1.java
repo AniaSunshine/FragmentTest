@@ -10,7 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.hao.fragmenttest.R;
-import com.ogaclejapan.smarttablayout.SmartTabLayout;
+import com.example.hao.fragmenttest.view.smarttablayout.SmartTabLayout;
 
 /**
  * Created by 012 on 2016/1/8.

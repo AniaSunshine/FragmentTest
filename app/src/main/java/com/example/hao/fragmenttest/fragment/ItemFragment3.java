@@ -17,7 +17,7 @@ public class ItemFragment3 extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.frag_pager, null);
         TextView tv_title = (TextView) view.findViewById(R.id.tv_title);
-        tv_title.setText("2");
+        tv_title.setText("3");
         return view;
     }
 }
