@@ -26,7 +26,7 @@ dependencies {
     //smartTabLayout
 //    compile 'com.ogaclejapan.smarttablayout:library:1.6.0@aar'
     //Optional: see how to use the utility.
-//    compile 'com.ogaclejapan.smarttablayout:utils-v4:1.6.0@aar'
+    compile 'com.ogaclejapan.smarttablayout:utils-v4:1.6.0@aar'
     //Optional: see how to use the utility.
 //    compile 'com.ogaclejapan.smarttablayout:utils-v13:1.6.0@aar'
 

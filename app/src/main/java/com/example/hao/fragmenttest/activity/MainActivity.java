@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.hao.fragmenttest.R;
+import com.example.hao.fragmenttest.demo.DemoMainActivity;
 
 
 public class MainActivity extends ActionBarActivity implements View.OnClickListener{
@@ -20,7 +21,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         setContentView(R.layout.activity_main_activity);
         tv_scroll=(Button)findViewById(R.id.tv_scroll);
         tv_scroll.setOnClickListener(this);
-        tv_to_demo=(Button)findViewById(R.id.tv_scroll);
+        tv_to_demo=(Button)findViewById(R.id.tv_to_demo);
         tv_to_demo.setOnClickListener(this);
     }
 
@@ -32,7 +33,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
                 startActivity(intent);
                 break;
             case R.id.tv_to_demo:
-                intent=new Intent(MainActivity.this,HomeActivity.class);
+                intent=new Intent(MainActivity.this,DemoMainActivity.class);
                 startActivity(intent);
                 break;
         }
